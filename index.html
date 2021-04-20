@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 rounded-3">
+                <h1>Formulario</h1>
+
+                <div id="alerta"></div>
+
+                <form id="formulario">
+                    <input type="email" class="form-control mt-3" name="email" placeholder="Escriba su email...">
+
+                    <input type="text" class="form-control mt-3" name="usuario" placeholder="Escriba su nombre...">
+
+                    <input type="password" class="form-control my-3" name="pass" placeholder="Escriba su contraseña...">
+
+                    <select class="form-select mt-3" aria-label="Default select example" name="pais">
+                        <option selected value="Default">País</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Peru">Perú</option>
+                    </select>
+
+                    <div class="form-check mt-3">
+                        <input class="form-check-input" type="checkbox" value="1" id="flexCheckDefault" name="check">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Recibir correos con promociones
+                        </label>
+                    </div>
+                                        
+                    <button type="submit" class="btn btn-secondary mt-3">Enviar formulario</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="js/bootstrap.min.js"></script>
+<script src="form.js"></script>
+</body>
+</html>
